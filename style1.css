@@ -1,0 +1,62 @@
+body,h2,h2,p,label,input,button{
+    margin: 0;
+    padding: 0;
+}
+/* Global styles888*/
+body{
+    font-family: Arial,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url();
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+}
+main{
+    padding: 2rem;
+    text-align: center;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+/*Forms*/
+.signup-form, .signin-form{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+}
+/*Forms*/
+.signup-form, .signin-form{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+button{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    
+}
+button:hover{
+    background-color: #333;
+}
